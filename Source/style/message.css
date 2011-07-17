@@ -1,0 +1,84 @@
+/* ================================
+ * !Messages
+ * 
+ * Note : The !important are used to avoid context inherit
+ * ================================*/
+
+/*
+ * !Standard messages
+ */
+.message {
+	background:no-repeat .84em .92em !important;
+	border:2px solid !important;
+	color:#000 !important;
+	display:block !important;
+	margin:10px !important;
+	font:12px/1.6em Tahoma, Helvetica, sans-serif !important;
+	padding:10px 10px 10px 32px !important;
+	vertical-align:middle;
+}
+
+.message.confirm {
+	background-color:#E6EFC2 !important;
+	background-image:url(../image/confirm.png) !important;
+	border-color:#C6D880 !important;
+}
+
+.message.info {
+	background-color:#D9ECF3 !important;
+	background-image:url(../image/info.png) !important;
+	border-color:#AED7E6 !important;
+}
+
+.message.error {
+	background-color:#FBE3E4 !important;
+	background-image:url(../image/error.png) !important;
+	border-color:#FBC2C4 !important;
+}
+
+.message.warning {
+	background-color:#FBE5C5 !important;
+	background-image:url(../image/warning.png) !important;
+	border-color:#F8C680 !important;
+}
+
+/* !Messages content */
+.message strong {
+	display:block !important;
+	font-weight:bold !important;
+}
+
+.message p {
+	font-size:12px !important;
+	margin:0 !important;
+	padding:0 !important;
+}
+
+.message ul {
+	border:0 !important;
+	margin:0 0 0 20px !important;
+	list-style:square !important;
+}
+
+.message li {
+	background:none !important;
+	margin:0 !important;
+	padding:0 !important;
+}
+
+/*
+ * !Inline messages
+ */
+.message.inline {
+	background-color:transparent !important;
+    background-position:.42em .1em !important;
+    border:0 !important;
+    display:inline-block !important;
+    margin:0 0 0 10px !important;
+    padding:0 0 0 27px !important;
+}
+
+.confirm.inline { color:#009900 !important; }
+.info.inline { color:#5D84B2 !important; }
+.warning.inline { color:#FF7000 !important; }
+.error.inline { color:#CC0000 !important; }

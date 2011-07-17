@@ -1,0 +1,317 @@
+<!doctype html>
+<!--[if IE 7]><html class="ie7 ie" lang="en"><![endif]--> 
+<!--[if IE 8]><html class="ie8 ie" lang="en"><![endif]--> 
+<!--[if IE 9]><html class="ie9 ie" lang="en"><![endif]--> 
+<!--[if (gt IE 9)|!(IE)]>--><html lang="en"><!--<![endif]--> 
+ <head>
+  <meta charset="utf-8" />
+  <title>Sample page</title>
+  <link rel="stylesheet" href="../Source/style/reset.css" />
+  <link rel="stylesheet" href="../Source/style/font.css" />
+  <link rel="stylesheet" href="../Source/style/layout.css" />
+  <link rel="stylesheet" href="../Source/style/block.css" />
+  <link rel="stylesheet" href="../Source/style/link.css" />
+  <link rel="stylesheet" href="../Source/style/form.css" />
+  <link rel="stylesheet" href="../Source/style/button.css" />
+  <link rel="stylesheet" href="../Source/style/table.css" />
+  <link rel="stylesheet" href="../Source/style/message.css" />
+  <style>
+	/* !Sample page styles */
+  	body {
+  		font-size:12px;
+  		padding:10px;
+  	}
+  	body > h1 {
+  		font-size:32px;
+  		font-weight:bold;
+  		margin:20px 0;
+  		text-align:center;
+  	}
+  	body > h2 {
+  		font-size:18px;
+  		font-weight:bold;
+  		margin:20px 0;
+  	}
+  	
+  	.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8,
+	.grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16 {
+  		min-height:50px;
+  	}
+  	
+  	.grid-1, .grid-5, .grid-9, .grid-13 { background:#C6D880; }
+	.grid-2, .grid-6, .grid-10, .grid-14 { background:#AED7E6; }
+	.grid-3, .grid-7, .grid-11, .grid-15 { background:#F8C680; }
+	.grid-4, .grid-8, .grid-12 { background:#FBC2C4; }
+	.grid-16 { background:#DDD; }
+  </style>
+ </head>
+ <body>
+  <h1>Sample page</h1>
+  <h2>Layout</h2>
+  <div class="row">
+   <div class="grid-16">
+    <div class="row">
+     <div class="grid-1">Grid 1</div>
+     <div class="grid-1">Grid 1</div>
+     <div class="grid-1">Grid 1</div>
+     <div class="grid-1">Grid 1</div>
+     <div class="grid-1">Grid 1</div>
+     <div class="grid-1">Grid 1</div>
+     <div class="grid-1">Grid 1</div>
+     <div class="grid-1">Grid 1</div>
+     <div class="grid-1">Grid 1</div>
+     <div class="grid-1">Grid 1</div>
+     <div class="grid-1">Grid 1</div>
+     <div class="grid-1">Grid 1</div>
+     <div class="grid-1">Grid 1</div>
+     <div class="grid-1">Grid 1</div>
+     <div class="grid-1">Grid 1</div>
+     <div class="grid-1">Grid 1</div>
+     
+     <div class="grid-2">Grid 2</div>
+     <div class="grid-2">Grid 2</div>
+     <div class="grid-2">Grid 2</div>
+     <div class="grid-2">Grid 2</div>
+     <div class="grid-2">Grid 2</div>
+     <div class="grid-2">Grid 2</div>
+     <div class="grid-2">Grid 2</div>
+     <div class="grid-2">Grid 2</div>
+     
+     <div class="grid-3">Grid 3</div>
+     <div class="grid-3">Grid 3</div>
+     <div class="grid-3">Grid 3</div>
+     <div class="grid-3">Grid 3</div>
+     <div class="grid-3">Grid 3</div>
+     <div class="grid-1">Grid 1</div>
+     
+     <div class="grid-4">Grid 4</div>
+     <div class="grid-4">Grid 4</div>
+     <div class="grid-4">Grid 4</div>
+     <div class="grid-4">Grid 4</div>
+     
+     <div class="grid-5">Grid 5</div>
+     <div class="grid-5">Grid 5</div>
+     <div class="grid-5">Grid 5</div>
+     <div class="grid-1">Grid 1</div>
+     
+     <div class="grid-6">Grid 6</div>
+     <div class="grid-6">Grid 6</div>
+     <div class="grid-4">Grid 4</div>
+     
+     <div class="grid-7">Grid 7</div>
+     <div class="grid-7">Grid 7</div>
+     <div class="grid-2">Grid 2</div>
+     
+     <div class="grid-8">Grid 8</div>
+     <div class="grid-8">Grid 8</div>
+     
+     <div class="grid-9">Grid 9</div>
+     <div class="grid-7">Grid 7</div>
+     
+     <div class="grid-10">Grid 10</div>
+     <div class="grid-6">Grid 6</div>
+     
+     <div class="grid-11">Grid 11</div>
+     <div class="grid-5">Grid 5</div>
+     
+     <div class="grid-12">Grid 12</div>
+     <div class="grid-4">Grid 4</div>
+     
+     <div class="grid-13">Grid 13</div>
+     <div class="grid-3">Grid 3</div>
+     
+     <div class="grid-14">Grid 14</div>
+     <div class="grid-2">Grid 2</div>
+     
+     <div class="grid-15">Grid 15</div>
+     <div class="grid-1">Grid 1</div>
+     
+     <div class="grid-16">Grid 16</div>
+     
+     <div class="grid-10">
+      <div class="row">
+       <div class="grid-2">Grid 2</div>
+       <div class="grid-3">Grid 1</div>
+       <div class="grid-5">Grid 5</div>
+       <div class="grid-1">Grid 1</div>
+       <div class="grid-9">Grid 7</div>
+      </div>
+     </div>
+     <div class="grid-6">
+      <div class="row">
+       <div class="grid-2">Grid 2</div>
+       <div class="grid-4">Grid 2</div>
+       <div class="grid-1">Grid 1</div>
+       <div class="grid-5">Grid 3</div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- -->
+  <h2>Block</h2>
+  <section class="block">
+   <header><h1>Block title</h1></header>
+   <div class="inner">Block content</div>
+   <footer></footer>
+  </section>
+  <!-- -->
+  <h2>Links</h2>
+  <a href="#">Link</a>
+  <a class="container" href="#">Block Link</a>
+  <!-- -->
+  <h2>Messages</h2>
+  <div class="message confirm">Confirmation message</div>
+  <div class="message info">Information message</div>
+  <div class="message warning">Warning message</div>
+  <div class="message error">Error message</div>
+  <div class="message error">
+   <p>Multi-line error message</p>
+   <ul>
+   	<li>Error 1</li>
+   	<li>Error 2</li>
+   	<li>Error 3</li>
+   </ul>
+  </div>
+  <div class="message confirm inline">Inline confirmation message</div>
+  <div class="message info inline">Inline information message</div>
+  <div class="message warning inline">Inline warning message</div>
+  <div class="message error inline">Inline error message</div>
+  <!-- -->
+  <h2>Buttons</h2>
+  <button>Button</button>
+  <a class="button" href="#">Button link</a>
+  <button disabled>Disabled Button</button>
+  <button class="important">Important Button</button>
+  <button class="notimportant">Not important Button</button>
+  <h2>Form</h2>
+  <form class="form" method="post" action="#">
+   <fieldset>
+   	<legend><span>Legend</span></legend>
+   	 <div><label for="input-1">Input</label><input id="input-1" type="text" /></div>
+   	 <div><label for="input-2">Disabled input</label><input id="input-2" type="text" disabled /></div>
+   	 <div><label for="input-3">Input with error</label><input class="form-error" id="input-3" type="text" /></div>
+   	 <p>Subsection:</p>
+   	 <div class="subsection">
+      <div><span class="label">Fake label</span><input id="input-4" type="text" /></div>
+      <div><input class="before" id="input-5" type="checkbox" /><label class="after" for="input-5">Checkbox</label></div>
+      <div><input class="before" id="input-6" name="radio" type="radio" /><label class="after" for="input-6">Radio 1</label><input class="before" id="input-7" name="radio" type="radio" /><label class="after" for="input-7">Radio 2</label></div>
+   	 </div>
+     <div><label for="input-8">Select</label><select id="input-8">
+       <option value="Value 1">Value 1</option>
+       <option value="Value 1">Value 1</option>
+       <option value="Value 1">Value 1</option>
+      </select>
+     </div>
+     <div><label for="input-9">Disabled select</label><select id="input-9" disabled>
+       <option value="Value 1">Value 1</option>
+       <option value="Value 1">Value 1</option>
+       <option value="Value 1">Value 1</option>
+      </select>
+     </div>
+     <div><label for="input-10">Select with error</label><select class="form-error" id="input-10">
+       <option value="Value 1">Value 1</option>
+       <option value="Value 1">Value 1</option>
+       <option value="Value 1">Value 1</option>
+      </select>
+     </div>
+     <div><label for="input-11">Textarea</label><textarea id="input-11">Textarea content</textarea></div>
+     <div><label for="input-12">Disabled textarea</label><textarea id="input-12" disabled>Textarea content</textarea></div>
+     <div><label for="input-13">Textarea with error</label><textarea class="form-error" id="input-13">Textarea content</textarea></div>
+   	 <div class="required"><label for="input-14">Required field<span title="Required">*</span></label><input id="input-14" type="text" required /></div>
+   	 <div class="submit"><button type="submit">Submit button</button></div>
+   </fieldset>
+  </form>
+  <h2>Form lite</h2>
+  <form class="form lite" method="post" action="#">
+   <fieldset>
+   	<legend><span>Legend</span></legend>
+   	 <div><label for="input-1b">Input</label> <input id="input-1b" type="text" /></div>
+   	 <div><label for="input-2b">Disabled input</label> <input id="input-2b" type="text" disabled /></div>
+   	 <div><label for="input-3b">Input with error</label> <input class="form-error" id="input-3b" type="text" /></div>
+   	 <p>Subsection:</p>
+   	 <div class="subsection">
+      <div><span class="label">Fake label</span> <input id="input-4b" type="text" /></div>
+      <div><input class="before" id="input-5b" type="checkbox" /> <label class="after" for="input-5b">Checkbox</label></div>
+      <div><input class="before" id="input-6b" name="radio" type="radio" /><label class="after" for="input-6b">Radio 1</label><input class="before" id="input-7b" name="radio" type="radio" /><label class="after" for="input-7b">Radio 2</label></div>
+   	 </div>
+     <div><label for="input-8b">Select</label> <select id="input-8b">
+       <option value="Value 1">Value 1</option>
+       <option value="Value 1">Value 1</option>
+       <option value="Value 1">Value 1</option>
+      </select>
+     </div>
+     <div><label for="input-9b">Disabled select</label> <select id="input-9b" disabled>
+       <option value="Value 1">Value 1</option>
+       <option value="Value 1">Value 1</option>
+       <option value="Value 1">Value 1</option>
+      </select>
+     </div>
+     <div><label for="input-10b">Select with error</label> <select class="form-error" id="input-10b">
+       <option value="Value 1">Value 1</option>
+       <option value="Value 1">Value 1</option>
+       <option value="Value 1">Value 1</option>
+      </select>
+     </div>
+     <div><label for="input-11b">Textarea</label> <textarea id="input-11b">Textarea content</textarea></div>
+     <div><label for="input-12b">Disabled textarea</label> <textarea id="input-12b" disabled>Textarea content</textarea></div>
+     <div><label for="input-13b">Textarea with error</label> <textarea class="form-error" id="input-13b">Textarea content</textarea></div>
+   	 <div class="required"><label for="input-14b">Required field<span title="Required">*</span></label> <input id="input-14b" type="text" required /></div>
+   	 <div class="submit"><button type="submit">Submit button</button></div>
+   </fieldset>
+  </form>
+  <h2>Form layout</h2>
+  <form class="form" method="post" action="#">
+   <fieldset>
+   	 <div><input class="form-grid-1" /><input class="form-grid-1" /><input class="form-grid-1" /><input class="form-grid-1" /><input class="form-grid-1" /><input class="form-grid-1" /><input class="form-grid-1" /><input class="form-grid-1" /><input class="form-grid-1" /><input class="form-grid-1" /><select class="form-grid-1"><option value="Value 1">Value 1</option></select><input class="form-grid-1" /><input class="form-grid-1" /><input class="form-grid-1" /><input class="form-grid-1" /><input class="form-grid-1" /></div>
+   	 <div><input class="form-grid-2" /><input class="form-grid-2" /><input class="form-grid-2" /><input class="form-grid-2" /><input class="form-grid-2" /><input class="form-grid-2" /><input class="form-grid-2" /><input class="form-grid-2" /></div>
+   	 <div><input class="form-grid-3" /><select class="form-grid-3"><option value="Value 1">Value 1</option></select><input class="form-grid-3" /><input class="form-grid-3" /><input class="form-grid-3" /><input class="form-grid-1" /></div>
+   	 <div><input class="form-grid-4" /><input class="form-grid-4" /><input class="form-grid-4" /><input class="form-grid-4" /></div>
+   	 <div><select class="form-grid-5"><option value="Value 1">Value 1</option></select><input class="form-grid-5" /><input class="form-grid-5" /><input class="form-grid-1" /></div>
+   	 <div><input class="form-grid-6" /><input class="form-grid-6" /><input class="form-grid-4" /></div>
+   	 <div><input class="form-grid-7" /><input class="form-grid-7" /><select class="form-grid-2"><option value="Value 1">Value 1</option></select></div>
+   	 <div><input class="form-grid-8" /><input class="form-grid-8" /></div>
+   </fieldset>
+  </form>
+  <h2>Table</h2>
+  <table>
+   <caption>Caption</caption>
+   <thead>
+   	<tr>
+   	 <th scope="col">Column 1</th>
+   	 <th scope="col">Column 2</th>
+   	 <th scope="col">Column 3</th>
+   	 <th scope="col">Column 4</th>
+   	</tr>
+   </thead>
+   <tfoot>
+   	<tr>
+   	 <th scope="row">Total</th>
+   	 <td>Result 1</td>
+   	 <td>Result 2</td>
+   	 <td>Result 3</td>
+   	</tr>
+   </tfoot>
+   <tbody>
+   	<tr>
+   	 <th scope="row">Row 1</th>
+   	 <td>Data 1</td>
+   	 <td>Data 2</td>
+   	 <td>Data 3</td>
+   	</tr>
+   	<tr>
+   	 <th scope="row">Row 2</th>
+   	 <td>Data 4</td>
+   	 <td>Data 5</td>
+   	 <td>Data 6</td>
+   	</tr>
+   	<tr>
+   	 <th scope="row">Row 3</th>
+   	 <td>Data 7</td>
+   	 <td>Data 8</td>
+   	 <td>Data 9</td>
+   	</tr>
+   </tbody>
+  </table>
+ </body>
+</html>

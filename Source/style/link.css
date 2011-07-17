@@ -1,0 +1,34 @@
+/* ================================
+ * !Links
+ * ================================*/
+
+/*
+ * !Classic links
+ */
+a:link, a:visited {
+	color:#3A568D;
+	text-decoration:none;
+}
+
+a:focus, a:hover, a:active {
+	text-decoration:underline;
+}
+
+/*
+ * !Block links
+ */
+a.container:link, a.container:visited {
+	color:inherit;
+	font-weight:normal;
+	display:block;
+}
+
+/* Fix for IE7 who do not understand inherit */
+.ie7 a.container, .ie7 a.container:visited {
+	color:#3C3C3C;
+}
+
+a.container:hover, a.container:hover, a.container:active {
+	color:#3A568D;
+	text-decoration:none;
+}

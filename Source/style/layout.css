@@ -1,0 +1,54 @@
+/* ================================
+ * !Layout
+ * ================================*/
+
+/*
+ * !Global
+ */
+body {
+	background:#FFF;
+	color:#3C3C3C;
+	font:10px Tahoma, Helvetica, sans-serif;
+}
+
+/* 
+ * !Grid
+ */
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8,
+.grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16 {
+	float:left;
+	overflow:hidden;
+	min-height:1px;
+	margin:0 5px;
+}
+
+.grid-1  { width:50px; }
+.grid-2  { width:110px; }
+.grid-3  { width:170px; }
+.grid-4  { width:230px; }
+.grid-5  { width:290px; }
+.grid-6  { width:350px; }
+.grid-7  { width:410px; }
+.grid-8  { width:470px; }
+.grid-9  { width:530px; }
+.grid-10 { width:590px; }
+.grid-11 { width:650px; }
+.grid-12 { width:710px; }
+.grid-13 { width:770px; }
+.grid-14 { width:830px; }
+.grid-15 { width:890px; }
+.grid-16 { width:950px; }
+
+.row {
+	overflow:hidden;
+	padding:0 5px;
+	width:950px;
+}
+
+.row .row {
+	display:inline-block;
+	margin:0 -5px;
+	padding:0;
+	vertical-align:middle;
+	width:auto;
+}

@@ -1,0 +1,13 @@
+/* ================================
+ * !Fonts
+ * ================================*/
+
+@font-face {
+	font-family:'FontName';
+	src:url('/font/font-name.eot#') format('eot'),
+		url('/font/font-name.woff') format('woff'),
+		url('/font/font-name.ttf') format('truetype'),
+		url('/font/font-name.svg#svgFontName') format('svg');
+	font-weight:bold;
+	font-style:normal;
+}

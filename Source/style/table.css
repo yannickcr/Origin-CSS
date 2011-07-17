@@ -1,0 +1,70 @@
+/* ================================
+ * !Tables
+ * ================================*/
+
+/*
+ * !Table
+ */
+table {
+	border-bottom:1px solid #DCDCDC;
+	line-height:18px;
+	margin-bottom:10px;
+	width:100%;
+}
+
+caption {
+	background:#F5F5F5;
+	border-top:1px solid #DCDCDC;
+	font-size:11px;
+	font-weight:bold;
+	text-align:left;
+	padding:4px;
+}
+
+/*
+ * !Body
+ */
+tbody tr:nth-child(even) { background:#F7F7F7; }
+.noeven tbody tr:nth-child(even) { background:none; }
+
+th, td {
+	border-bottom:1px solid #DCDCDC;
+	font-size:12px;
+	font-weight:normal;
+	line-height:18px;
+	padding:4px;
+	text-align:center;
+	vertical-align:middle;
+	white-space:nowrap;
+	width:4.2%;
+}
+th {
+	background:#EBEBEB;
+	color:#989898;
+	font-weight:bold;
+}
+
+th[scope=row] {
+	background:none;
+	text-align:left;
+	width:4.2%;
+}
+
+th:first-child { border-left:0; }
+th:last-child { border-right:0; }
+		
+table img {
+	margin:0 5px;
+	vertical-align:middle;
+}
+
+/*
+ * !Footer
+ */
+tfoot th, tfoot td {
+	background:#EBEBEB;
+}
+
+tfoot th {
+	font-weight:bold;
+}
