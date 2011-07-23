@@ -44,12 +44,12 @@
 	display:block;
 	padding:5px 2px;
 	vertical-align:middle;
-	width:200px;
+	width:0;
+	white-space:nowrap;
 }
 
 label.after {
 	display:inline;
-	font-weight:normal;
 	margin-right:5px;
 }
 
