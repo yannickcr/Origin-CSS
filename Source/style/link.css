@@ -28,7 +28,7 @@ a.container:link, a.container:visited {
 	color:#3C3C3C;
 }
 
-a.container:hover, a.container:hover, a.container:active {
+a.container:focus, a.container:hover, a.container:active {
 	color:#3A568D;
 	text-decoration:none;
 }
